@@ -1,5 +1,9 @@
 /* app css stylesheet */
 
+body {
+  background: #F1F1F1;
+}
+
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -27,4 +31,37 @@
 .menu > li:nth-child(1):before {
   content: "";
   padding: 0;
+}
+
+.bar {
+    height: 18px;
+    background: green;
+}
+
+#uploadButton {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  display: block;
+  
+}
+
+#video {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  display: block;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.title-text {
+  text-align: center;
+}
+
+.subtitle-text {
+  text-align: center;
+  font-size: 12px;
 }

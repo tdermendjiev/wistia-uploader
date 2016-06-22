@@ -1,9 +1,7 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
-  "license": "MIT",
+  "name": "Wistia Video Uploader",
+  "description": "Upload and preview your Wistia video",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "angular": "~1.5.0",
