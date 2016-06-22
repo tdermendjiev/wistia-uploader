@@ -28,10 +28,6 @@ angular.module('wistiaUploader.upload', ['ngRoute'])
 			        dataType: 'json',
 			        progressall: function (e, data) {
 			        var progress = parseInt(data.loaded / data.total * 100, 10);
-			        $('#progress .bar').css(
-			            'width',
-			            progress + '%'
-			        );
 			        $('#progressBar').removeClass('hidden');
 			        $('.progress-bar').css('width', progress+'%').attr('aria-valuenow', progress);
 			    },
