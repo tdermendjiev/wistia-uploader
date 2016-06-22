@@ -43,7 +43,6 @@ body {
   margin-right: auto;
   margin-top: 2em;
   display: block;
-  
 }
 
 #video {
@@ -51,6 +50,13 @@ body {
   margin-right: 2em;
   margin-top: 2em;
   display: block;
+}
+
+#progressBar {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  width: 60%;
 }
 
 .hidden {
@@ -64,4 +70,5 @@ body {
 .subtitle-text {
   text-align: center;
   font-size: 12px;
+  font-family: cursive;
 }
