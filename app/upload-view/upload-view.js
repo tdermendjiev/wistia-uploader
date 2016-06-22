@@ -4,7 +4,7 @@ angular.module('wistiaUploader.upload', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/upload', {
-    templateUrl: 'upload-view/upload-view.html',
+    templateUrl: 'app/upload-view/upload-view.html',
     controller: 'VideoUploadCtrl'
   });
 }])
